@@ -1,0 +1,54 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.594);
+  color: white;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.logo > i {
+  color: #61dafb;
+}
+.outer-nav {
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  width: 100%;
+  /* opacity: 0.9; */
+  height: 60vh;
+  background-image: url("../components/React – A JavaScript library for building user interfaces.png");
+}
+.inner-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .inner-text {
+    font-size: 5px;
+  }
+}
+.marquee {
+  background-color: rgba(28, 22, 22, 0.829);
+  padding: 0.5rem;
+  color: #61dafb;
+  font-size: 18px;
+}
+.list-items-group {
+  display: flex;
+  margin-right: 10px;
+}
+.list-items-group > li {
+  margin-left: 10px;
+  list-style-type: none;
+  cursor: pointer;
+}
+.logo {
+  margin-left: 10px;
+}

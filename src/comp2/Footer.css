@@ -1,0 +1,9 @@
+.footer-icons i {
+  padding: 0.8rem 0;
+  color: #61dafb;
+}
+.items {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
